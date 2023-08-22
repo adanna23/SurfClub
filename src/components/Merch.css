@@ -1,0 +1,1013 @@
+  .group-image .merch-logo {
+      position: relative;
+      top: 30px;
+      left: 460px;
+      width: 530px;
+      height: 60px;
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+
+  .rectangle-border {
+    position: relative;
+    top: -20px;
+    left: 200px;
+    box-shadow: 8px 8px 8px ;
+    border: 8px solid black;
+    height: 140px;
+    overflow-x: hidden;
+    width: 650px;
+  }
+
+  .box {
+      border: 0px none;
+      height: 1500px;
+      position: relative;
+      width: 1376px;
+  }
+
+  .box .group {
+      background-image: url("src/assets/h20.jpg");
+      top: -80px;
+      height: 1300px;
+      left: 35px;
+      position: relative;
+      width: 1400px;
+  }
+
+  .box .overlap {
+      position: relative;
+      height: 229px;
+      left: 200px;
+      position: relative;
+      top: -61px;
+      width: 773px;
+  }
+
+  .group .change-photo img {
+      height: 304px;
+      left: 41px;
+      object-fit: cover;
+      position: absolute;
+      top: 74px;
+      width: 279px;
+      border-radius: 20px;
+    }
+
+    /* Hiding the second picture right away */
+  .group .change-photo:nth-of-type(2) {
+      display: none;
+    }
+
+    /* When you hover your cursor over the parent change-photos class, the first picture is hidden, and the second is shown */
+    
+  .group:hover .change-photo:nth-of-type(1) {
+      display: none;
+    }
+    
+  .group:hover .change-photo:nth-of-type(2) {
+      display: block;
+    }
+    
+  .group:hover {
+      cursor: pointer;
+    }
+
+  .group .change-photo1 img {
+      height: 304px;
+      left: 380px;
+      object-fit: cover;
+      position: absolute;
+      top: 74px;
+      width: 279px;
+      border-radius: 20px;
+    }
+
+    /* Hiding the second picture right away */
+  .group .change-photo1:nth-of-type(4) {
+      display: none;
+    }
+
+    /* When you hover your cursor over the parent change-photos class, the first picture is hidden, and the second is shown */
+    
+  .group:hover .change-photo1:nth-of-type(3) {
+      display: none;
+    }
+    
+  .group:hover .change-photo1:nth-of-type(4) {
+      display: block;
+    }
+
+    .group:hover {
+      cursor: pointer;
+    }
+    
+    .group .change-photo2 img {
+      height: 304px;
+      left: 719px;
+      object-fit: cover;
+      position: absolute;
+      top: 74px;
+      width: 279px;
+      border-radius: 20px;
+    }
+
+    /* Hiding the second picture right away */
+    .group .change-photo2:nth-of-type(6) {
+      display: none;
+    }
+
+    /* When you hover your cursor over the parent change-photos class, the first picture is hidden, and the second is shown */
+    
+    .group:hover .change-photo2:nth-of-type(5) {
+      display: none;
+    }
+    
+    .group:hover .change-photo2:nth-of-type(6) {
+      display: block;
+    }
+
+    .group:hover {
+      cursor: pointer;
+    }
+
+    .group .change-photo3 img {
+      height: 304px;
+      left: 1068px;
+      object-fit: cover;
+      position: absolute;
+      top: 74px;
+      width: 279px;
+      border-radius: 20px;
+    }
+
+    /* Hiding the second picture right away */
+    .group .change-photo3:nth-of-type(8) {
+      display: none;
+    }
+
+    /* When you hover your cursor over the parent change-photos class, the first picture is hidden, and the second is shown */
+    
+    .group:hover .change-photo3:nth-of-type(7) {
+      display: none;
+    }
+    
+    .group:hover .change-photo3:nth-of-type(8) {
+      display: block;
+    }
+
+    .group:hover {
+      cursor: pointer;
+    }
+
+    .group .change-photo4 img {
+      height: 304px;
+      left: 41px;
+      object-fit: cover;
+      position: absolute;
+      top: 660px;
+      width: 279px;
+      border-radius: 20px;
+    }
+
+    /* Hiding the second picture right away */
+    .group .change-photo4:nth-of-type(10) {
+      display: none;
+    }
+
+    /* When you hover your cursor over the parent change-photos class, the first picture is hidden, and the second is shown */
+    
+    .group:hover .change-photo4:nth-of-type(9) {
+      display: none;
+    }
+    
+    .group:hover .change-photo4:nth-of-type(10) {
+      display: block;
+    }
+
+    .group:hover {
+      cursor: pointer;
+    }
+
+    .group .change-photo5 img {
+      height: 304px;
+      left: 380px;
+      object-fit: cover;
+      position: absolute;
+      top: 660px;
+      width: 279px;
+      border-radius: 20px;
+    }
+
+    /* Hiding the second picture right away */
+    .group .change-photo5:nth-of-type(12) {
+      display: none;
+    }
+
+    /* When you hover your cursor over the parent change-photos class, the first picture is hidden, and the second is shown */
+    
+    .group:hover .change-photo5:nth-of-type(11) {
+      display: none;
+    }
+    
+    .group:hover .change-photo5:nth-of-type(12) {
+      display: block;
+    }
+
+    .group:hover {
+      cursor: pointer;
+    }
+
+    .group .change-photo6 img {
+      height: 304px;
+      left: 719px;
+      object-fit: cover;
+      position: absolute;
+      top: 660px;
+      width: 279px;
+      border-radius: 20px;
+    }
+
+    /* Hiding the second picture right away */
+    .group .change-photo6:nth-of-type(14) {
+      display: none;
+    }
+
+    /* When you hover your cursor over the parent change-photos class, the first picture is hidden, and the second is shown */
+    
+    .group:hover .change-photo6:nth-of-type(13) {
+      display: none;
+    }
+    
+    .group:hover .change-photo6:nth-of-type(14) {
+      display: block;
+    }
+
+    .group:hover {
+      cursor: pointer;
+    }
+
+    .group .change-photo7 img {
+      height: 304px;
+      left: 1068px;
+      object-fit: cover;
+      position: absolute;
+      top: 660px;
+      width: 279px;
+      border-radius: 20px;
+    }
+
+    /* Hiding the second picture right away */
+    .group .change-photo7:nth-of-type(16) {
+      display: none;
+    }
+
+    /* When you hover your cursor over the parent change-photos class, the first picture is hidden, and the second is shown */
+    
+    .group:hover .change-photo7:nth-of-type(15) {
+      display: none;
+    }
+    
+    .group:hover .change-photo7:nth-of-type(16) {
+      display: block;
+    }
+
+    .group:hover {
+      cursor: pointer;
+    }
+
+    .item-name-1 {
+      height: 70px;
+      left: 40px;
+      position: absolute;
+      font-family: "Inter-Bold", Helvetica;
+      font-weight: 600;
+      font-size: 20px;
+      top: 400px;
+      width: 333px;
+    }
+
+    .color-1 {
+      height: 70px;
+      left: 40px;
+      position: absolute;
+      top: 430px;
+      font-family: "Inter-Bold", Helvetica;
+      font-weight: 600;
+      font-size: 20px;
+      width: 333px;
+    }
+
+    .rectangle-1 {
+      background-color: white;
+      border: 2px solid;
+      border-color: #000000;
+      height: 32px;
+      left: 40px;
+      position: absolute;
+      top: 465px;
+      width: 31px;
+    }
+
+    .rectangle-2 {
+      background-color: black;
+      border: 2px solid;
+      border-color: #000000;
+      height: 32px;
+      left: 90px;
+      position: absolute;
+      top: 465px;
+      width: 31px;
+    }
+
+    .price-1 {
+      height: 84px;
+      left: 40px;
+      position: absolute;
+      top: 510px;
+      width: 335px;
+      font-family: "Inter-SemiBold", Helvetica;
+      font-size: 20px;
+      font-weight: 800;
+    }
+
+    .s-XXL-XXXL-and {
+      color: #000000;
+      font-family: "Inter-Bold", Helvetica;
+      font-size: 20px;
+      font-weight: 400;
+      left: 40px;
+      letter-spacing: 0;
+      line-height: normal;
+      position: absolute;
+      top: 550px;
+  }
+
+  .span {
+      font-weight: 600;
+  }
+
+  .text-wrapper-2 {
+      font-family: "Inter-ExtraBold", Helvetica;
+      font-weight: 800;
+  }
+
+  .item-name-2 {
+    height: 70px;
+    left: 380px;
+    position: absolute;
+    top: 400px;
+    width: 333px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .color-2 {
+    height: 70px;
+    left: 380px;
+    position: absolute;
+    top: 430px;
+    width: 333px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .rectangle-3 {
+    background-color: white;
+    border: 2px solid;
+    border-color: #000000;
+    height: 32px;
+    left: 380px;
+    position: absolute;
+    top: 465px;
+    width: 31px;
+  }
+
+  .rectangle-4 {
+    background-color: black;
+    border: 2px solid;
+    border-color: #000000;
+    height: 32px;
+    left: 430px;
+    position: absolute;
+    top: 465px;
+    width: 31px;
+  }
+
+  .price-2 {
+    height: 84px;
+    left: 380px;
+    position: absolute;
+    top: 510px;
+    width: 335px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .s-XXL-XXXL-and-1 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 380px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 550px;
+  }
+
+  .span {
+    font-weight: 600;
+  }
+
+  .text-wrapper-2 {
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+  }
+
+  .item-name-3 {
+    height: 70px;
+    left: 720px;
+    position: absolute;
+    top: 400px;
+    width: 333px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .color-3 {
+    height: 70px;
+    left: 720px;
+    position: absolute;
+    top: 430px;
+    width: 333px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .rectangle-5 {
+    background-color: white;
+    border: 2px solid;
+    border-color: #000000;
+    height: 32px;
+    left: 720px;
+    position: absolute;
+    top: 465px;
+    width: 31px;
+  }
+
+  .rectangle-6 {
+    background-color: black;
+    border: 2px solid;
+    border-color: #000000;
+    height: 32px;
+    left: 770px;
+    position: absolute;
+    top: 465px;
+    width: 31px;
+  }
+
+  .price-3 {
+    height: 84px;
+    left: 720px;
+    position: absolute;
+    top: 510px;
+    width: 335px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .s-XXL-XXXL-and-2 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 720px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 550px;
+  }
+
+  .span {
+    font-weight: 600;
+  }
+
+  .text-wrapper-2 {
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+  }
+
+  .item-name-4 {
+    height: 70px;
+    left: 1067px;
+    position: absolute;
+    top: 400px;
+    width: 333px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .color-4 {
+    height: 70px;
+    left: 1067px;
+    position: absolute;
+    top: 430px;
+    width: 333px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .rectangle-7 {
+    background-color: white;
+    border: 2px solid;
+    border-color: #000000;
+    height: 32px;
+    left: 1067px;
+    position: absolute;
+    top: 465px;
+    width: 31px;
+  }
+
+  .rectangle-8 {
+    background-color: black;
+    border: 2px solid;
+    border-color: #000000;
+    height: 32px;
+    left: 1120px;
+    position: absolute;
+    top: 465px;
+    width: 31px;
+  }
+
+  .price-4 {
+    height: 84px;
+    left: 1067px;
+    position: absolute;
+    top: 510px;
+    width: 335px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .s-XXL-XXXL-and-3 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 1067px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 550px;
+  }
+
+  .span {
+    font-weight: 600;
+  }
+
+  .text-wrapper-2 {
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+  }
+
+  .item-name-5 {
+    height: 70px;
+    left: 40px;
+    position: absolute;
+    top: 980px;
+    width: 333px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .color-5 {
+    height: 70px;
+    left: 40px;
+    position: absolute;
+    top: 1040px;
+    width: 333px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .rectangle-9 {
+    background-color: white;
+    border: 2px solid;
+    border-color: #000000;
+    height: 32px;
+    left: 40px;
+    position: absolute;
+    top: 1080px;
+    width: 31px;
+  }
+
+  .rectangle-10 {
+    background-color: black;
+    border: 2px solid;
+    border-color: #000000;
+    height: 32px;
+    left: 90px;
+    position: absolute;
+    top: 1080px;
+    width: 31px;
+  }
+
+  .price-5 {
+    height: 84px;
+    left: 40px;
+    position: absolute;
+    top: 1120px;
+    width: 335px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .s-XXL-XXXL-and-4 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1160px;
+  }
+
+  .span {
+    font-weight: 600;
+  }
+
+  .text-wrapper-2 {
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+  }
+
+  .item-name-6 {
+    height: 70px;
+    left: 380px;
+    position: absolute;
+    top: 980px;
+    width: 333px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .color-6 {
+    height: 70px;
+    left: 380px;
+    position: absolute;
+    top: 1040px;
+    width: 333px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .rectangle-11 {
+    background-color: white;
+    border: 2px solid;
+    border-color: #000000;
+    height: 32px;
+    left: 380px;
+    position: absolute;
+    top: 1080px;
+    width: 31px;
+  }
+
+  .rectangle-12 {
+    background-color: black;
+    border: 2px solid;
+    border-color: #000000;
+    height: 32px;
+    left: 430px;
+    position: absolute;
+    top: 1080px;
+    width: 31px;
+  }
+
+  .price-6 {
+    height: 84px;
+    left: 380px;
+    position: absolute;
+    top: 1120px;
+    width: 335px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .s-XXL-XXXL-and-5 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 380px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1160px;
+  }
+
+  .span {
+    font-weight: 600;
+  }
+
+  .text-wrapper-2 {
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+  }
+
+  .item-name-7 {
+    height: 70px;
+    left: 720px;
+    position: absolute;
+    top: 980px;
+    width: 333px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .color-7 {
+    height: 70px;
+    left: 720px;
+    position: absolute;
+    top: 1040px;
+    width: 333px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .rectangle-13 {
+    background-color: white;
+    border: 2px solid;
+    border-color: #000000;
+    height: 32px;
+    left: 720px;
+    position: absolute;
+    top: 1080px;
+    width: 31px;
+  }
+
+  .rectangle-14 {
+    background-color: black;
+    border: 2px solid;
+    border-color: #000000;
+    height: 32px;
+    left: 770px;
+    position: absolute;
+    top: 1080px;
+    width: 31px;
+  }
+
+  .price-7 {
+    height: 84px;
+    left: 720px;
+    position: absolute;
+    top: 1120px;
+    width: 335px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .s-XXL-XXXL-and-6 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 720px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1160px;
+  }
+
+  .span {
+    font-weight: 600;
+  }
+
+  .text-wrapper-2 {
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+  }
+
+  .item-name-8 {
+    height: 70px;
+    left: 1067px;
+    position: absolute;
+    top: 980px;
+    width: 333px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .color-8 {
+    height: 70px;
+    left: 1067px;
+    position: absolute;
+    top: 1040px;
+    width: 333px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .rectangle-15 {
+    background-color: white;
+    border: 2px solid;
+    border-color: #000000;
+    height: 32px;
+    left: 1067px;
+    position: absolute;
+    top: 1080px;
+    width: 31px;
+  }
+
+  .rectangle-16 {
+    background-color: black;
+    border: 2px solid;
+    border-color: #000000;
+    height: 32px;
+    left: 1120px;
+    position: absolute;
+    top: 1080px;
+    width: 31px;
+  }
+
+  .price-8 {
+    height: 84px;
+    left: 1067px;
+    position: absolute;
+    top: 1120px;
+    width: 335px;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 800;
+  }
+
+  .s-XXL-XXXL-and-7 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    left: 1067px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 1160px;
+  }
+
+  .span {
+    font-weight: 600;
+  }
+
+  .text-wrapper-2 {
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+  }
+
+  .heart {
+    height: 36px;
+    left: 255px;
+    position: absolute;
+    top: 90px;
+    width: 47px;
+  }
+
+  .heart-2 {
+    height: 36px;
+    left: 595px;
+    position: absolute;
+    top: 90px;
+    width: 47px;
+  }
+
+  .heart-3 {
+    height: 36px;
+    left: 935px;
+    position: absolute;
+    top: 90px;
+    width: 47px;
+  }
+
+  .heart-4 {
+    height: 36px;
+    left: 1275px;
+    position: absolute;
+    top: 90px;
+    width: 47px;
+  }
+
+  .heart-5 {
+    height: 36px;
+    left: 255px;
+    position: absolute;
+    top: 680px;
+    width: 47px;
+  }
+
+  .heart-6 {
+    height: 36px;
+    left: 595px;
+    position: absolute;
+    top: 680px;
+    width: 47px;
+  }
+
+  .heart-7 {
+    height: 36px;
+    left: 935px;
+    position: absolute;
+    top: 680px;
+    width: 47px;
+  }
+
+  .heart-8 {
+    height: 36px;
+    left: 1275px;
+    position: absolute;
+    top: 680px;
+    width: 47px;
+  }
+
+  .cart {
+    height: 36px;
+    left: 260px;
+    position: absolute;
+    top: 330px;
+    width: 47px;
+  }
+
+  .cart-2 {
+    height: 36px;
+    left: 600px;
+    position: absolute;
+    top: 330px;
+    width: 47px;
+  }
+
+  .cart-3 {
+    height: 36px;
+    left: 940px;
+    position: absolute;
+    top: 330px;
+    width: 47px;
+  }
+
+  .cart-4 {
+    height: 36px;
+    left: 1290px;
+    position: absolute;
+    top: 330px;
+    width: 47px;
+  }
+
+  .cart-5 {
+    height: 36px;
+    left: 260px;
+    position: absolute;
+    top: 915px;
+    width: 47px;
+  }
+
+  .cart-6 {
+    height: 36px;
+    left: 600px;
+    position: absolute;
+    top: 915px;
+    width: 47px;
+  }
+
+  .cart-7 {
+    height: 36px;
+    left: 940px;
+    position: absolute;
+    top: 915px;
+    width: 47px;
+  }
+
+  .cart-8 {
+    height: 36px;
+    left: 1290px;
+    position: absolute;
+    top: 915px;
+    width: 47px;
+  }
